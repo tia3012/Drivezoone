@@ -1,0 +1,70 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
+  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+  <title>Contact Us - DriveZone</title>
+  <link rel="stylesheet" href="screenStyle.css" type="text/css" />
+</head>
+
+<body>
+  <div id="nav-bar">
+    <div class="site-name">
+        <img  src="imgs/logo.jpeg" alt="Logo" class="logo">
+        <a class="btn" href="index.html"><span id="site-name">DriveZone</span></a>
+    </div>
+  </div>
+
+  <div id="contact-section">
+    <h1>Contact Us to Test Your drive licence</h1>
+    <p>Want to test drive your dream car? Click the button below to schedule an appointment.</p>    
+    <form  method="post">
+      <div class="form-group">
+        <label for="name">Your Name:</label>
+        <input type="text" id="name" name="name" required />
+      </div>
+
+      <div class="form-group">
+        <label for="email">Email Address:</label>
+        <input type="email" id="email" name="email" required />
+      </div>
+
+      <div class="form-group">
+        <label for="message">Your Message:</label>
+        <textarea id="message" name="message" rows="4" required></textarea>
+      </div>
+
+      <div class="form-group">
+        <label for="car-type">Select Car Type:</label>
+        <select id="car-type" name="car_type" required>
+          <option value="">-- Select Car Type --</option>
+          <option value="compact">Compact Cars</option>
+          <option value="family">Family Cars</option>
+          <option value="mpv">MPV Cars</option>
+        </select>
+      </div>
+
+      <div class="form-group">
+        <label for="car-model">Select Car for Test Drive:</label>
+        <select id="car-model" name="car_model" required>
+          <option value="">-- Select Car --</option>
+          <option value="mercedes_a">Mercedes-Benz A-Class</option>
+          <option value="mercedes_cla">Mercedes-Benz CLA</option>
+          <option value="lexus_ct">Lexus CT 200h</option>
+          <option value="lexus_ux">Lexus UX 200</option>
+          <option value="toyota_corolla">Toyota Corolla</option>
+          <option value="toyota_rav4">Toyota RAV4</option>
+          <option value="nissan_altima">Nissan Altima</option>
+          <option value="nissan_xtrail">Nissan X-Trail</option>
+          <option value="honda_odyssey">Honda Odyssey</option>
+          <option value="toyota_sienna">Toyota Sienna</option>
+          <option value="kia_carens">Kia Carens</option>
+          <option value="mercedes_vclass">Mercedes V-Class</option>
+        </select>
+      </div>
+<h2>Book a Test Drive Now</h2>
+    <a href="done.html" class="action-btn">Book Test Drive</a>
+   </form>
+
+    </div>
+</body>
+</html>
