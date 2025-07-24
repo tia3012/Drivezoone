@@ -1,23 +1,31 @@
-<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN"
-  "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<!DOCTYPE html>
+<html lang="en">
+
 <head>
-  <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
-  <title>Contact Us - DriveZone</title>
-  <link rel="stylesheet" href="screenStyle.css" type="text/css" />
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+    <title>Contact Us - DriveZone</title>
+    <link rel="stylesheet" type="text/css" href="screenStyle.css" />
 </head>
 
 <body>
   <div id="nav-bar">
+    <ul>
+        <li><a href="index.html">Home</a></li>
+        <li><a href="inventory.html">Inventory</a></li>
+        <li><a href="about.html">About Us</a></li>
+        <li><a href="contact.html" class="active">Contact us</a></li>
+    </ul>
     <div class="site-name">
-        <img  src="imgs/logo.jpeg" alt="Logo" class="logo">
-        <a class="btn" href="index.html"><span id="site-name">DriveZone</span></a>
+      <img src="imgs/logo.jpeg" alt="Logo" class="logo">
+      <span id="brand-title">DriveZone</span>
     </div>
   </div>
 
   <div id="contact-section">
-    <h1>Contact Us to Test Your drive licence</h1>
-    <p>Want to test drive your dream car? Click the button below to schedule an appointment.</p>    
-    <form  method="post">
+    <h1>Contact Us to Test Your Driving Experience</h1>
+    <p>Want to test drive your dream car? Fill in the form below to schedule an appointment.</p>
+
+    <form action="done.html" method="get">
       <div class="form-group">
         <label for="name">Your Name:</label>
         <input type="text" id="name" name="name" required />
@@ -61,10 +69,13 @@
           <option value="mercedes_vclass">Mercedes V-Class</option>
         </select>
       </div>
-<h2>Book a Test Drive Now</h2>
-    <a href="done.html" class="action-btn">Book Test Drive</a>
-   </form>
 
-    </div>
+      <div class="form-group">
+        <input type="submit" class="action-btn" value="Book Test Drive" />
+      </div>
+
+      <p style="margin-top: 20px;">By submitting, you agree to our <a href="privacy.html" target="_blank">Privacy Policy</a>.</p>
+    </form>
+  </div>
 </body>
 </html>
